@@ -92,6 +92,7 @@ const greetInhaeng = sayHello('Inhaeng', 27)
 console.log(greetInhaeng)
 */
 
+/*
 const calculator = {
     plus: function(a, b) {
         return a + b;
@@ -101,3 +102,7 @@ const calculator = {
 // console.log(greetInhaeng)
 const plus = calculator.plus(5, 5)
 console.log(plus)
+*/
+
+const title = document.getElementById("title");
+title.innerHTML = "Hi! From JS";
