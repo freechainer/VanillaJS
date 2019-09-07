@@ -38,3 +38,16 @@ const wat = 666;
 Float 
 const wat = 55.1;
 */
+
+// const monday = "Mon";
+// const tue = "Tue";
+// const wed = "Wed";
+// const thu = "Thu";
+// const fri = "Fri";
+
+// console.log(monday, tue, wed, thu, fri);
+
+const something = "something"
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", 54, true, "stuff", "lalala", something];
+
+console.log(daysOfWeek);
