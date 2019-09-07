@@ -47,7 +47,29 @@ const wat = 55.1;
 
 // console.log(monday, tue, wed, thu, fri);
 
+/*
 const something = "something"
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", 54, true, "stuff", "lalala", something];
 
 console.log(daysOfWeek);
+*/
+
+const inhaengInfo = {
+    name : "Heoinhaeng", 
+    age : 27,
+    gender : "Male",
+    isHandsome: true,
+    favMovies: ["Home Alone", "Iron Man", "Big Short"],
+    favFood : [
+        {
+            name:"Kimchi", 
+            fatty:false
+        }, 
+        {
+            name:"Cheese burger", 
+            fatty: true
+        }      
+    ]
+}
+
+console.log(inhaengInfo.favFood[0].name)
