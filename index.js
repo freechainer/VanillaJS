@@ -54,6 +54,7 @@ const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", 54, true, "
 console.log(daysOfWeek);
 */
 
+/*
 const inhaengInfo = {
     name : "Heoinhaeng", 
     age : 27,
@@ -72,4 +73,11 @@ const inhaengInfo = {
     ]
 }
 
-console.log(inhaengInfo.favFood[0].name)
+console.log(inhaengInfo)
+*/
+
+function sayHello(name, age) {
+    console.log('Hello!', name, "you have", age, "years of age.");    
+}
+
+sayHello("inhaeng", 15);
