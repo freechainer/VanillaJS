@@ -76,8 +76,28 @@ const inhaengInfo = {
 console.log(inhaengInfo)
 */
 
+// function sayHello(name, age) {
+//     console.log('Hello!', name, 'you have', age, 'years of age.');    
+// }
+
+// sayHello("inhaeng", 15);
+
+/*
 function sayHello(name, age) {
-    console.log('Hello!', name, "you have", age, "years of age.");    
+    return `Hello ${name} you are ${age} years old`;    
 }
 
-sayHello("inhaeng", 15);
+const greetInhaeng = sayHello('Inhaeng', 27)
+
+console.log(greetInhaeng)
+*/
+
+const calculator = {
+    plus: function(a, b) {
+        return a + b;
+    }
+}
+
+// console.log(greetInhaeng)
+const plus = calculator.plus(5, 5)
+console.log(plus)
