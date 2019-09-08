@@ -234,15 +234,15 @@ function init() {
 init();
 */
 
-const title = document.querySelector('#title');
+// const title = document.querySelector('#title');
 
-const CLICKED_CLASS = 'clicked';
+// const CLICKED_CLASS = 'clicked';
 
-function handleClick() {
-    title.classList.toggle(CLICKED_CLASS);
-}
+// function handleClick() {
+//     title.classList.toggle(CLICKED_CLASS);
+// }
 
-function init() {
-    title.addEventListener('click', handleClick);
-}
-init();
+// function init() {
+//     title.addEventListener('click', handleClick);
+// }
+// init();
