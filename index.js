@@ -111,6 +111,7 @@ title.style.color = 'red';
 document.title = 'I own you now';
 */
 
+/*
 const title = document.querySelector("#title");
 
 function handleClick(event){
@@ -118,5 +119,57 @@ function handleClick(event){
 }
 
 title.addEventListener("click", handleClick);
+*/
+
+/*
+if(10 === 5) {
+    console.log('hi')
+}   else {
+    console.log('ho')
+}
+*/
+
+/*
+if(10 === 5) {
+    console.log('hi')
+    } else if("10" === "10") {
+    console.log('lalala'); 
+    } else {
+    console.log("ho");
+}
+*/
+
+// if(20 > 5 && "inhaeng" === "inhaeng"){
+//     console.log('yes')
+//     } else {
+//     console.log('no');   
+//     }
 
 
+    // if(20 > 5 || "inhaeng" === "inhaeng"){
+    //     console.log('yes')
+    //     } else {
+    //     console.log('no');   
+    //     }
+
+
+// true && true = true;
+// false && true = false;
+// true && false = false;
+// false && false = false;
+
+// true || true = true;
+// false || true = true;
+// true || false = true;
+// false || false = false;
+
+
+const age = prompt("how old are you?");
+
+if(age >= 18 && age <= 21) {
+    console.log('you can drink but you shoul not');
+} else if (age > 21) {
+    console.log('go ahead')
+} else {
+    console.log('too young')
+}
