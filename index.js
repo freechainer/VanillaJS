@@ -163,7 +163,7 @@ if(10 === 5) {
 // true || false = true;
 // false || false = false;
 
-
+/*
 const age = prompt("how old are you?");
 
 if(age >= 18 && age <= 21) {
@@ -173,3 +173,43 @@ if(age >= 18 && age <= 21) {
 } else {
     console.log('too young')
 }
+*/
+
+// const title = document.querySelector('#title');
+
+// const BASE_COLOR = "rgb(52, 73, 94)";
+// const OTHER_COLOR = "#7f8c8d";
+
+// function handleClick() {
+//     const currentColor = title.style.color;
+//     if (currentColor === BASE_COLOR){
+//         title.style.color = OTHER_COLOR;
+//     } else {
+//         title.style.color = BASE_COLOR;
+//     }
+// }
+
+// function init() {
+//     title.style.color = BASE_COLOR;
+//     title.addEventListener('click', handleClick);
+// }
+// init();
+
+/*
+function init() {
+    title.style.color = BASE_COLOR;
+    title.addEventListener('click', handleClick);
+}
+init();
+
+function handleOffline() {
+    console.log("Bye bye");
+}
+
+function handleOnline() {
+    console.log("welcome back");
+}
+
+window.addEventListener("offline", handleOffline);
+window.addEventListener("online", handleOnline);
+*/
