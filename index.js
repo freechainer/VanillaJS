@@ -104,5 +104,19 @@ const plus = calculator.plus(5, 5)
 console.log(plus)
 */
 
-const title = document.getElementById("title");
+/*
+const title = document.querySelector("#title");
 title.innerHTML = "Hi! From JS";
+title.style.color = 'red';
+document.title = 'I own you now';
+*/
+
+const title = document.querySelector("#title");
+
+function handleClick(event){
+    title.style.color = "blue";
+}
+
+title.addEventListener("click", handleClick);
+
+
