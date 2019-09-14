@@ -1,13 +1,17 @@
 // console.log('I am working. I am JS. I am Beautiful. I am worth it');
 
-// let a = 221;
-// var b = a - 5;
-// a = 4;
-// console.log(b, a);
+/*
+var a = 221;
+var b = a - 5;
+a = 4;
+console.log(b, a);
+*/
 
-// let => 변수를 수정할수 있다.
-// const => 변수를 수정할수 없다.
-// var => 일반적으로 쓰는 변수 변수를 수정할수 있다.
+/*
+let => 변수를 수정할수 있다.
+const => 변수를 수정할수 없다.
+var => 일반적으로 쓰는 변수 변수를 수정할수 있다.
+*/
 
 /*
 to do : finish this
@@ -18,37 +22,40 @@ to do : finish this
 */
 
 /*
-String
-const what = "Heoinhaeng";
-
+String -> 문자열
+const what = "devinhaeng";
 console.log(what);
 */
 
 /*
-Boolean
+Boolean -> 참, 거짓
 const wat = true; or false;
 */
 
 /*
-Number
+Number -> 숫자열
 const wat = 666;
+console.log(wat);
 */
 
 /*
-Float 
+Float -> 소수점이있는 숫자
 const wat = 55.1;
+console.log(wat);
 */
 
-// const monday = "Mon";
-// const tue = "Tue";
-// const wed = "Wed";
-// const thu = "Thu";
-// const fri = "Fri";
+/*
+const monday = "Mon";
+const tue = "Tue";
+const wed = "Wed";
+const thu = "Thu";
+const fri = "Fri";
 
-// console.log(monday, tue, wed, thu, fri);
+console.log(monday, tue, wed, thu, fri);
+*/
 
 /*
-const something = "something"
+const something = "Something"
 const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", 54, true, "stuff", "lalala", something];
 
 console.log(daysOfWeek);
@@ -56,7 +63,7 @@ console.log(daysOfWeek);
 
 /*
 const inhaengInfo = {
-    name : "Heoinhaeng", 
+    name : "Inhaeng", 
     age : 27,
     gender : "Male",
     isHandsome: true,
@@ -73,14 +80,24 @@ const inhaengInfo = {
     ]
 }
 
-console.log(inhaengInfo)
+console.log(inhaengInfo.favFood[0].fatty)
 */
 
-// function sayHello(name, age) {
-//     console.log('Hello!', name, 'you have', age, 'years of age.');    
-// }
+/*
+function sayHello(name, age, job) {
+    console.log('Hello! my name is', name, 'I am', age, 'years of old.', 'my job is', job);    
+}
 
-// sayHello("inhaeng", 15);
+sayHello("Inhaeng", 27, "coder!");
+*/
+
+/*
+function sayHello(name, age, job) {
+    console.log(`Hello ${name} you are ${age} years old, your job is ${job}`);    
+}
+
+sayHello("Inhaeng", 27, "coder!");
+*/
 
 /*
 function sayHello(name, age) {
@@ -91,6 +108,7 @@ const greetInhaeng = sayHello('Inhaeng', 27)
 
 console.log(greetInhaeng)
 */
+
 
 /*
 const calculator = {
@@ -103,6 +121,7 @@ const calculator = {
 const plus = calculator.plus(5, 5)
 console.log(plus)
 */
+
 
 /*
 const title = document.querySelector("#title");
@@ -139,29 +158,32 @@ if(10 === 5) {
 }
 */
 
-// if(20 > 5 && "inhaeng" === "inhaeng"){
-//     console.log('yes')
-//     } else {
-//     console.log('no');   
-//     }
+/*
+if(20 > 5 && "inhaeng" === "inhaeng"){
+    console.log('yes')
+    } else {
+    console.log('no');   
+    }
 
 
-    // if(20 > 5 || "inhaeng" === "inhaeng"){
-    //     console.log('yes')
-    //     } else {
-    //     console.log('no');   
-    //     }
+if(20 > 5 || "inhaeng" === "inhaeng"){
+    console.log('yes')
+    } else {
+    console.log('no');   
+    }
+*/
 
+/*
+true && true = true;
+false && true = false;
+true && false = false;
+false && false = false;
 
-// true && true = true;
-// false && true = false;
-// true && false = false;
-// false && false = false;
-
-// true || true = true;
-// false || true = true;
-// true || false = true;
-// false || false = false;
+true || true = true;
+false || true = true;
+true || false = true;
+false || false = false;
+*/
 
 /*
 const age = prompt("how old are you?");
@@ -175,25 +197,27 @@ if(age >= 18 && age <= 21) {
 }
 */
 
-// const title = document.querySelector('#title');
+/*
+const title = document.querySelector('#title');
 
-// const BASE_COLOR = "rgb(52, 73, 94)";
-// const OTHER_COLOR = "#7f8c8d";
+const BASE_COLOR = "rgb(52, 73, 94)";
+const OTHER_COLOR = "#7f8c8d";
 
-// function handleClick() {
-//     const currentColor = title.style.color;
-//     if (currentColor === BASE_COLOR){
-//         title.style.color = OTHER_COLOR;
-//     } else {
-//         title.style.color = BASE_COLOR;
-//     }
-// }
+function handleClick() {
+    const currentColor = title.style.color;
+    if (currentColor === BASE_COLOR){
+        title.style.color = OTHER_COLOR;
+    } else {
+        title.style.color = BASE_COLOR;
+    }
+}
 
-// function init() {
-//     title.style.color = BASE_COLOR;
-//     title.addEventListener('click', handleClick);
-// }
-// init();
+function init() {
+    title.style.color = BASE_COLOR;
+    title.addEventListener('click', handleClick);
+}
+init();
+*/
 
 /*
 function init() {
@@ -234,15 +258,17 @@ function init() {
 init();
 */
 
-// const title = document.querySelector('#title');
+/*
+const title = document.querySelector('#title');
 
-// const CLICKED_CLASS = 'clicked';
+const CLICKED_CLASS = 'clicked';
 
-// function handleClick() {
-//     title.classList.toggle(CLICKED_CLASS);
-// }
+function handleClick() {
+    title.classList.toggle(CLICKED_CLASS);
+}
 
-// function init() {
-//     title.addEventListener('click', handleClick);
-// }
-// init();
+function init() {
+    title.addEventListener('click', handleClick);
+}
+init();
+*/
